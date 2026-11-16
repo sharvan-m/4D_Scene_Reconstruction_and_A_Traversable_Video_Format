@@ -188,6 +188,32 @@ Navigate to `http://localhost:8000/4DV-Viewer/` and drop any `.4dv` file into th
 
 ## 📚 9. References & Acknowledgments
 
-- **4D Gaussian Splatting (4DGS):** Wu et al., *4D Gaussian Splatting for Real-Time Dynamic Scene Rendering*, 2023.
-- **3D Gaussian Splatting:** Kerbl et al., *3D Gaussian Splatting for Real-Time Radiance Field Rendering*, SIGGRAPH 2023.
-- Built for dynamic video reconstruction and novel view synthesis applications.
+### Foundational Research Papers
+- **4D Gaussian Splatting for Real-Time Dynamic Scene Rendering (CVPR 2024)**  
+  Guanjun Wu, Taoran Yi, Jiemin Fang, Lingxi Xie, Xiaopeng Zhang, Wei Wei, Wenyu Liu, Qi Tian  
+  - 📄 **Paper:** [arXiv:2310.08528](https://arxiv.org/abs/2310.08528)  
+  - 🌐 **Project Page:** [https://guanjunwu.github.io/4dgs/](https://guanjunwu.github.io/4dgs/)  
+  - 💻 **Source Code:** [hustvl/4DGaussians](https://github.com/hustvl/4DGaussians)
+
+- **3D Gaussian Splatting for Real-Time Radiance Field Rendering (SIGGRAPH 2023)**  
+  Bernhard Kerbl, Georgios Kopanas, Thomas Leimkühler, George Drettakis  
+  - 📄 **Paper:** [arXiv:2308.04079](https://arxiv.org/abs/2308.04079)  
+  - 🌐 **Project Page:** [Inria GraphDeco 3DGS](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/)  
+  - 💻 **Source Code:** [graphdeco-inria/gaussian-splatting](https://github.com/graphdeco-inria/gaussian-splatting)
+
+- **Neural 3D Video Synthesis from Multi-view Video (DyNeRF / CVPR 2022)**  
+  Tianye Li, Mira Slavcheva, Michael Zollhöfer, Simon Green, Christoph Lassner, Richard Newcombe, Thomas Funkhouser, Zhaoyang Lv  
+  - 📄 **Paper:** [arXiv:2103.02597](https://arxiv.org/abs/2103.02597)  
+  - 🌐 **Project Page & Datasets:** [https://neural-3d-video.github.io/](https://neural-3d-video.github.io/)  
+  - 💻 **Source Code & Benchmark Data:** [facebookresearch/Neural_3D_Video](https://github.com/facebookresearch/Neural_3D_Video)
+
+- **D-NeRF: Neural Radiance Fields for Dynamic Scenes (CVPR 2021)**  
+  Albert Pumarola, Enric Corona, Gerard Pons-Moll, Francesc Moreno-Noguer  
+  - 📄 **Paper:** [arXiv:2011.13961](https://arxiv.org/abs/2011.13961)  
+  - 🌐 **Project Page:** [https://www.albertpumarola.com/research/D-NeRF/](https://www.albertpumarola.com/research/D-NeRF/)  
+  - 💻 **Dataset:** [D-NeRF Synthetic Dataset](https://github.com/albertpumarola/D-NeRF)
+
+### Tools & Ecosystem
+- **COLMAP Structure-from-Motion:** [https://colmap.github.io/](https://colmap.github.io/)  
+- **WebGL2 Specification:** [Khronos WebGL 2.0](https://www.khronos.org/registry/webgl/specs/latest/2.0/)
+
