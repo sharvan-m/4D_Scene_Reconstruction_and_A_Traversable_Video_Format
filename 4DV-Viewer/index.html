@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>.4dv Player — 4D Dynamic Scene Viewer</title>
+  <link rel="stylesheet" href="css/viewer.css">
+</head>
+<body class="">
+  <canvas id="c"></canvas>
+
+  <!-- Top overlay -->
+  <div id="top">
+    <div>
+      <div id="title">.4dv Player <span style="color:var(--mut);font-weight:400" id="ver"></span></div>
+      <div id="meta">
+        <b id="count">—</b> splats &nbsp;·&nbsp;
+        <b id="fps">—</b> fps &nbsp;·&nbsp;
+        <span id="fname">drop a .4dv →</span>
+      </div>
+    </div>
+    <div class="chips">
+      <span class="chip-label">Start&nbsp;view</span>
+      <div id="cams" class="chips"></div>
+    </div>
+  </div>
+
+  <!-- Bottom transport controls -->
+  <div id="controls">
+    <div class="bar">
+      <button id="play" class="tbtn" title="Play / pause">▶</button>
+      <div id="timewrap">
+        <input id="time" type="range" min="0" max="1000" value="0">
+      </div>
+      <div id="tval">0.00s</div>
+      <div class="size">
+        <span>Size</span>
+        <input id="psize" type="range" min="20" max="400" value="140">
+      </div>
+      <button id="load" class="tbtn ghost" title="Open .4dv">📂</button>
+      <button id="fs" class="tbtn ghost" title="Fullscreen">⛶</button>
+    </div>
+  </div>
+
+  <input id="file" type="file" accept=".4dv" style="display:none">
+  <div id="drop">Drop a .4dv file to load</div>
+  <div id="hint" style="position:fixed;bottom:82px;left:50%;transform:translateX(-50%);color:var(--mut);font-size:11px;z-index:4;transition:opacity .25s">
+    drag = orbit · wheel = zoom · right-drag = pan · click = play/pause
+  </div>
+
+  <script src="js/viewer.js"></script>
+</body>
+</html>
