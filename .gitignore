@@ -1,0 +1,69 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+.conda/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+*.obj
+*.o
+*.pyd
+*.dll
+*.lib
+*.exp
+*.ninja
+.ninja_*
+
+# CUDA compilation cache
+*.cubin
+*.fatbin
+
+# Logs and temporary files
+*.log
+*.tmp
+*.crdownload
+_tee*
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Heavy training outputs / checkpoints
+output/
+checkpoints/
+runs/
+wandb/
+tensorboard/
+*.pth
+*.pt
+*.ckpt
+
+# Heavy 4DV raw outputs / binaries (keep deliverables if explicitly added)
+*.4dv
+!deliverables/*.4dv
+
+# Raw video inputs and frame dumps (can be regenerated or hosted externally)
+videos/input/
+videos/output/
+sftest/
+4dv_ours/images/
+4dv_ours/sparse/0/*.bin
+
+# Zip archives
+*.zip
+*.tar.gz
+*.7z
