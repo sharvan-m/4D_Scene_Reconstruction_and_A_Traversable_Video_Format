@@ -3,12 +3,14 @@
 # 4D Video: Dynamic Scene Reconstruction & Traversable Video Format
 
 [![GitHub Repo](https://img.shields.io/badge/GitHub-sharvan--m%2F4D__Scene__Reconstruction-blue?logo=github)](https://github.com/sharvan-m/4D_Scene_Reconstruction_and_A_Traversable_Video_Format.git)
-[![Technology](https://img.shields.io/badge/Core-4D%20Gaussian%20Splatting-orange)](#technology-stack)
-[![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20CUDA-green)](#hardware--environment)
+[![Technology](https://img.shields.io/badge/Core-4D%20Gaussian%20Splatting-orange)](#-3-technology-stack)
+[![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20CUDA-green)](#-5-installation--setup)
 [![Viewer](https://img.shields.io/badge/Viewer-WebGL2%20Interactive-blueviolet)](4DV-Viewer/)
 [![License](https://img.shields.io/badge/License-MIT-lightgrey)](#-license)
 
 **A comprehensive framework for reconstructing dynamic 3D scenes across time from multi-view video footage into a lightweight, interactive, traversable 4D video format.**
+
+[Overview](#-1-project-overview--problem-statement) • [Key Features](#-2-key-features) • [Tech Stack](#-3-technology-stack) • [Repository Structure](#-4-repository-structure) • [Setup](#-5-installation--setup) • [Running](#-6-running-the-pipeline) • [Demos](#-7-visual-demos--results) • [References](#-9-references--acknowledgments)
 
 </div>
 
