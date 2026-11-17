@@ -6,6 +6,7 @@
 [![Technology](https://img.shields.io/badge/Core-4D%20Gaussian%20Splatting-orange)](#technology-stack)
 [![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20CUDA-green)](#hardware--environment)
 [![Viewer](https://img.shields.io/badge/Viewer-WebGL2%20Interactive-blueviolet)](4DV-Viewer/)
+[![License](https://img.shields.io/badge/License-MIT-lightgrey)](#-license)
 
 **A comprehensive framework for reconstructing dynamic 3D scenes across time from multi-view video footage into a lightweight, interactive, traversable 4D video format.**
 
@@ -216,4 +217,11 @@ Navigate to `http://localhost:8000/4DV-Viewer/` and drop any `.4dv` file into th
 ### Tools & Ecosystem
 - **COLMAP Structure-from-Motion:** [https://colmap.github.io/](https://colmap.github.io/)  
 - **WebGL2 Specification:** [Khronos WebGL 2.0](https://www.khronos.org/registry/webgl/specs/latest/2.0/)
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+
 
